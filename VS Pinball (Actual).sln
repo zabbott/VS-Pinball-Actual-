@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{9F0F9A7D-4915-1609-3EA0-A1E02CEC4C67}") = "VS Pinball (Actual)", "Assembly-CSharp.csproj", "{78B70858-01FC-CA24-8A7E-6A262E2286AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{78B70858-01FC-CA24-8A7E-6A262E2286AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B70858-01FC-CA24-8A7E-6A262E2286AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B70858-01FC-CA24-8A7E-6A262E2286AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B70858-01FC-CA24-8A7E-6A262E2286AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
