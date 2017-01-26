@@ -8,11 +8,16 @@ public class FlipperScript : MonoBehaviour {
 
 	public HingeJoint2D LeftFlipperHinge; 
 	public JointMotor2D LeftFlipperHingeMotor; 
+	public float HighestRotation;
+
 
 	// Use this for initialization
 	void Start () {
 		LeftFlipperHinge = gameObject.GetComponent<HingeJoint2D> ();
 		LeftFlipperHingeMotor = LeftFlipperHinge.motor;
+
+
+
 	}
 	
 	// Update is called once per frame
@@ -22,9 +27,11 @@ public class FlipperScript : MonoBehaviour {
 			print ("A is being pressed");
 			LeftFlipperHinge.useMotor = true;
 
+
 		} 
 
-		if (gameObject.transform.rotation.z > 0) { 
+
+		if (Input.GetKeyUp (KeyCode.A)) { 
 
 			LeftFlipperHinge.useMotor = false;
 
